@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Rangel</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsividade.css">
+
+    <!--Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+        integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    
+</head>
+
+<body>
+
+    <!--Botão voltar ao topo-->
+    <div id="backToTop" class="fixed-button">
+        <i class="bi bi-chevron-up"></i>
+    </div>
+
+    <!--Botão WhatsApp-->
+    <div id="whatsappButton" class="fixed-button">
+        <i class="bi bi-whatsapp"></i>
+    </div>
+
+    <!--Container Geral-->
+    <div class="container">
+
+        <!--Header-->
+        <header class="header">
+            <div class="menu">
+                <label class="hamburger">
+                    <input type="checkbox" id="menuToggle">
+                    <svg viewBox="0 0 32 32">
+                        <path class="line line-top-bottom"
+                            d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22">
+                        </path>
+                        <path class="line" d="M7 16 27 16"></path>
+                    </svg>
+                </label>
+            </div>
+            <div class="menu-aberto">
+                <nav class="nav-menu">
+                    <a href="#inicio">INÍCIO</a>
+                    <a href="#sobre">SOBRE</a>
+                    <a href="#skills">SKILLS</a>
+                    <a href="#servicos">SERVIÇOS</a>
+                    <a href="#portfolio">PORTFOLIO</a>
+                    <a href="#contato">CONTATO</a>
+                </nav>
+            </div>
+        </header>
+        <!--Fim Header-->
+
+        <!--Início-->
+        <main id="inicio" class="inicio">
+            <div class="container-inicio">
+                <div class="conteudo-inicio" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="titulo-inicio">
+                        <h1>Seja bem vindo(a)</h1>
+                    </div>
+                    <div class="paragrafo-inicio" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                        <p>Aqui, programação é arte. Transformo ideias em tecnologia.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!--Fim Início-->
+
+        <!--Sobre-->
+        <section id="sobre" class="sobre">
+            <div class="container-sobre">
+                <!--Slide Sobre-->
+                <!-- <div class="headline-sobre" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="headline-scroll" id="headline-scroll">
+                        <span class="bold">SOBRE</span>
+                        <span class="divisor"></span>
+                        <span class="light">SOBRE</span>
+                        <span class="divisor"></span>
+                        <span class="bold">SOBRE</span>
+                        <span class="divisor"></span>
+                        <span class="light">SOBRE</span>    
+                        <span class="divisor"></span>
+                        <span class="bold">SOBRE</span>
+                        <span class="divisor"></span>
+                        <span class="light">SOBRE</span>
+                        <span class="divisor"></span>
+                    </div>
+                </div> -->
+                <div class="conteudo-sobre">
+                    <div class="left-sobre" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="textos-sobre">
+                            <h1>Olá, me chamo Alex Rangel.</h1>
+                            <p>Sou um desenvolvedor apaixonado por transformar ideias em soluções inteligentes.
+                                Trabalho com backend, automações e crio sistemas web, mobile e desktop que facilitam a vida das pessoas e impulsionam negócios.
+                                Acredito que a tecnologia, quando bem aplicada, é capaz de gerar mudanças reais.
+                                Vamos construir algo incrível juntos?</p>
+                        </div>
+                        <div class="redes-sociais">
+                            <a href="#">GITHUB<i class="bi bi-arrow-right"></i></a>
+                            <a href="#">LINKEDIN<i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="right-sobre" data-aos="fade-left" data-aos-duration="1000">
+                        <div class="imagem-sobre">
+                            <img src="assets/img/Novo Projeto.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Fim Sobre-->
+
+        <!--Skills-->
+        <section id="skills" class="skills">
+            <div class="container-skills" data-aos="fade-up" data-aos-duration="1000">
+                <div class="headline-skills">
+                    <div class="text-headline-skills" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                        <h2>Minhas Skills</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga molestias libero consequuntur.</p>
+                    </div>
+                </div>
+                <div class="conteudo-skills">
+                    <div class="box-skills" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                        <i class="bi bi-server"></i>
+                        <h3>NestJS / Express</h3>
+                        <p>APIs robustas e escaláveis com TypeScript, arquitetura modular e alta performance.</p>
+                    </div>
+                    <div class="box-skills" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                        <i class="bi bi-phone"></i>
+                        <h3>React Native</h3>
+                        <p>Aplicações mobile de alta performance, compatíveis com Android e iOS.</p>    
+                    </div>
+                    <div class="box-skills" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                        <i class="bi bi-window"></i>
+                        <h3>React</h3>
+                        <p>Interfaces modernas, responsivas e focadas na melhor experiência do usuário.</p>
+                    </div>
+                    <div class="box-skills" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+                        <i class="bi bi-laptop"></i>
+                        <h3>Electron</h3>
+                        <p>Aplicações desktop multiplataforma com integração completa a sistemas locais.</p>
+                    </div>
+                </div>
+                <div class="headline-skill">
+                    <div class="headline-scroll" id="headline-scroll">
+                        <span class="bold">JAVASCRIPT</span>
+                        <span class="divisor"></span>
+                        <span class="light">TYPESCRIPT</span>
+                        <span class="divisor"></span>
+                        <span class="bold">NESTJS</span>
+                        <span class="divisor"></span>
+                        <span class="light">ELECTRON</span>
+                        <span class="divisor"></span>
+                        <span class="bold">REACT</span>
+                        <span class="divisor"></span>
+                        <span class="light">REACT NATIVE</span>
+                        <span class="divisor"></span>
+                        <span class="bold">AWS</span>
+                        <span class="divisor"></span>
+                        <span class="light">GITHUB</span>
+                        <span class="divisor"></span>
+                        <span class="bold">MYSQL</span>
+                        <span class="divisor"></span>
+                        <span class="light">MONGODB</span>
+                        <span class="divisor"></span>
+                      </div>     
+                </div>
+            </div>
+        </section>
+        <!--Fim Skills-->
+
+        <!--Serviços-->
+        <section id="servicos" class="servicos">
+            <div class="container-servicos">
+                <div class="headline-servicos" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="titulo-servicos">
+                        <h1>Serviços</h1>
+                    </div>
+                    <div class="descricao-servicos" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                        <p>Os meus serviços são para Automatizar processos, criar aplicativos e sistemas que tornam o seu negócio mais eficiente e competitivo.</p>
+                    </div>
+                </div>
+                <div class="servicos-cards">
+                    <!--Serviço 1-->
+                    <div class="card-servicos-left" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
+                        <div class="card-titulo">
+                          <h3>Automação</h3>
+                          <p>Automatizo tarefas e processos repetitivos para que você ganhe tempo, reduza custos e foque no que realmente importa.</p>
+                        </div>
+                        <div class="card-icon"><i class="bi bi-gear-wide-connected"></i></div>
+                      </div>
+                    <!--Serviço 2-->
+                    <div class="card-servicos" data-aos="fade-left" data-aos-delay="400" data-aos-duration="1000">
+                        <div class="card-titulo">
+                          <h3>Bots Integrados com IA</h3>
+                          <p>Crio bots inteligentes que automatizam atendimentos, processam informações e ajudam seu negócio a crescer de forma mais eficiente.</p>
+                        </div>
+                        <div class="card-icon"><i class="bi bi-robot"></i></div>
+                      </div>
+                    <!--Serviço 3-->
+                    <div class="card-servicos-left" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
+                        <div class="card-titulo">
+                          <h3>Desenvolvimento Mobile</h3>
+                          <p>Desenvolvo aplicativos para Android e iOS, com interfaces modernas e fáceis de usar, perfeitos para atender seus clientes na palma da mão.</p>
+                        </div>
+                        <div class="card-icon"><i class="bi bi-phone"></i></div>
+                      </div>
+                    <!--Serviço 4-->
+                    <div class="card-servicos" data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000">
+                        <div class="card-titulo">
+                          <h3>Backend</h3>
+                          <p>Construo sistemas que conectam e organizam dados de forma segura e eficiente, garantindo que tudo funcione rápido e sem complicações.</p>
+                        </div>
+                        <div class="card-icon"><i class="bi bi-server"></i></div>
+                      </div>
+
+                       <!-- Serviço 5 -->
+                    <div class="card-servicos-left" data-aos="fade-right" data-aos-delay="700" data-aos-duration="1000">
+                        <div class="card-titulo">
+                          <h3>Desenvolvimento Desktop</h3>
+                          <p>Crio softwares que rodam direto no seu computador (Windows, Mac ou Linux), ideais para gerenciar informações e automatizar tarefas do dia a dia.</p>
+                        </div>
+                        <div class="card-icon"><i class="bi bi-laptop"></i></div>
+                      </div>
+                </div>
+            </div>
+        </section>
+        <!--Fim Serviços-->
+
+        <!--Portfolio-->
+        <section id="portfolio" class="portfolio">
+            <div class="container-portfolio" data-aos="fade-up" data-aos-duration="1000">
+                <div class="headline-portfolio">
+                    <h1 class="titulo">Portfolio</h1>
+                    <span class="descricao">Meu portfólio está em construção, mas meu compromisso em criar soluções inteligentes já é realidade. Vamos desenvolver seu projeto juntos?</span>
+                </div>
+                <div class="container-case">
+                    <!--Case 1-->
+                    <div class="case1" data-aos="fade-right" data-aos-delay="200">
+                        <div class="imagens-case">
+                            <div class="slide">
+                                <i class="bi bi-chevron-left prev"></i>
+                                <img src="assets/img/case_1.png" alt="">
+                                <i class="bi bi-chevron-right next"></i>
+                            </div>
+                        </div>
+                        <div class="textos-case">
+                            <div class="conteudo-textos-case">
+                                <h1>Automação Inteligente de Tarefas</h1>
+                                <p>Exemplo de automação capaz de executar tarefas repetitivas em sistemas empresariais, como geração de relatórios, envio de e-mails e integração entre plataformas, aumentando a produtividade e economizando tempo operacional.</p>
+                                <span>Projeto em construção</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Case 2-->
+                    <div class="case2" data-aos="fade-left" data-aos-delay="300">
+                        <div class="textos-case">
+                            <div class="conteudo-textos-case">
+                                <h2>Bot Inteligente de Atendimento</h2>
+                                <p>Projeto demonstrativo de bot para atendimento automatizado via WhatsApp e Web, capaz de captar leads, realizar respostas automáticas e otimizar o tempo de resposta ao cliente.</p>
+                                <span>Projeto em construção</span>
+                            </div>
+                        </div>
+                        <div class="imagens-case">
+                            <div class="slide">
+                                <i class="bi bi-chevron-left prev"></i>
+                                <img src="assets/img/case_2.png" alt="">
+                                <i class="bi bi-chevron-right next"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Case 3-->
+                    <div class="case3" data-aos="fade-right" data-aos-delay="400">
+                        <div class="imagens-case">
+                            <div class="slide">
+                                <i class="bi bi-chevron-left prev"></i>
+                                <img src="assets/img/case_3.png" alt="">
+                                <i class="bi bi-chevron-right next"></i>
+                            </div>
+                        </div>
+                        <div class="textos-case">
+                            <div class="conteudo-textos-case">
+                                <h2>App Mobile de Gerenciamento de Tarefas</h2>
+                                <p>Solução exemplo de aplicativo mobile voltado para organização de tarefas diárias, definição de lembretes e acompanhamento de progresso pessoal e profissional.</p>
+                                <span>Projeto em construção</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Fim Portfolio-->
+
+        <!--Contato-->
+        <section id="contato" class="contato">
+            <div class="container-contato" data-aos="fade-up" data-aos-duration="1000">
+                <div class="headline-contato" data-aos="fade-up" data-aos-delay="200">
+                    <div class="titulo-contato">
+                        <h1>Contato</h1>
+                    </div>
+                    <div class="descricao-contato">
+                        <ul class="lista-contato">
+                            <li><a href="#">WhatsApp: (21) 96405-0946</a></li>
+                            <li><a href="#">alexrangel90@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="logo-contato" data-aos="fade-up" data-aos-delay="600">
+                    <img src="assets/img/imagem_contato.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!--Fim Contato-->
+
+        <!--Footer-->
+        <footer class="footer" id="footer">
+            <div class="container-footer">
+                <!-- <div class="footer-column logo-column">
+                    <img src="assets/img/SUA-LOGO-AQUI.png" alt="">
+                </div> -->
+                <div class="footer-column menu-column">
+                    <nav class="footer-nav">
+                        <a href="#inicio">Início</a>
+                        <a href="#sobre">Sobre</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#servicos">Serviços</a>
+                        <a href="#portfolio">Portfolio</a>
+                        <a href="#contato">Contato</a>
+                    </nav>
+                </div>
+                <!-- <div class="footer-column social-column">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="bi bi-github"></i> GitHub</a></li>
+                        <li><a href="#"><i class="bi bi-linkedin"></i> LinkedIn</a></li>
+                    </ul>
+                </div> -->
+            </div>
+            <div class="footer-column credits-column">
+                <p>&copy; 2025 Todos os direitos reservados.</p>
+            </div>
+        </footer>
+        <!--Fim Footer-->
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Inicialização do AOS -->
+    <script>
+        AOS.init();
+    </script>
+
+    <!--JavaScript-->
+    <script src="assets/js/header.js"></script>
+    <script src="assets/js/actionButton.js"></script>
+    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/slideSobre.js"></script>
+    <script src="assets/js/slidePortfolio.js"></script>
+
+</body>
+
+</html>
