@@ -815,8 +815,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem;
-    gap: 7%;
+    padding: 3rem;
 }
 
 .card-titulo {
