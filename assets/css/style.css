@@ -708,6 +708,29 @@ a {
     }
 }
 
+@media (max-width: 600px) {
+    .skills {
+        padding: 2rem 1rem;
+    }
+
+    .container-skills {
+        width: 100%;
+        height: auto;
+    }
+
+    .headline-skills {
+        margin-bottom: 1rem;
+    }
+
+    .text-headline-skills h2 {
+        font-size: 2.5rem;
+    }
+
+    .text-headline-skills p {
+        font-size: 1.2rem;
+    }
+}
+
 /*************** SERVIÇOS *****/
 .servicos {
     background-color: var(--color-white);
