@@ -79,6 +79,10 @@
         font-size: 1.4rem;
     }
 
+    .servicos-cards {
+        gap: 2.5rem;
+    }
+
     /************************** PORTFOLIO ***/
 
     .container-portfolio {
