@@ -1,6 +1,10 @@
 /* Responsividade para iPad (tablet) */
 @media (max-width: 1024px) {
 
+    body {
+        overflow-x: hidden;
+    }
+
     .container {
         padding: 0;
     }
